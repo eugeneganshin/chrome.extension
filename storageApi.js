@@ -16,7 +16,7 @@ export const promisify = (fn) => {
 };
 
 /**
- * Composition-like object. Can extend functionality in the future e.g. set(keys) {...} , etc.
+ * Composition-like object. Can extend functionality in future e.g. set(keys) {...} , etc.
  */
 
 export const storage = {

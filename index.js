@@ -11,7 +11,7 @@ const log = () => {
 	console.log('Promise resolved');
 };
 
-const withTimeout = setTimeout((values) => {
+const withTimeout = setTimeout(() => {
 	console.log('Boo!');
 }, 2000);
 
